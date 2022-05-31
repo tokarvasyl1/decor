@@ -1,0 +1,599 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url('../font/Roboto-Medium.ttf');
+    src: local('../font/Roboto-Medium'), local('../font/Roboto-Medium'),
+    url('../font/Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothicA1-SemiBold';
+    src: url('../font/GothicA1-SemiBold.ttf');
+    src: local('../font/GothicA1-SemiBold'), local('../font/GothicA1-SemiBold'),
+    url('../font/GothicA1-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Light';
+    src: url('../font/Roboto-Light.ttf');
+    src: local('../font/Roboto-Light'), local('../font/Roboto-Light'),
+    url('../font/Roboto-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+/*секция 1 */
+header {
+    background-color: lightslategrey;
+}
+
+.container {
+    max-width: 1188px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.jcs{
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: -40px;
+}
+
+.menu_bar {
+    margin-top: 39px;
+    list-style: none;
+}
+
+.menu_bar li {
+    margin-right: 20px;
+}
+
+.menu_bar li a {
+    font-family: 'Roboto-Medium';
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.contact_bar {
+    list-style: none;
+    margin-top: 39px;
+}
+
+.phone_number {
+    font-family: 'Roboto-Medium';
+    margin-right: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.contact_bar a {
+    font-family: 'Roboto-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.descr_info {
+    background-image: url("../images/bg1.png");
+    background-size: cover;
+    height: 84vh;
+    padding-top: 20px;
+}
+
+.container h1 {
+    font-family: 'GothicA1-SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 130%;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 166px #000000;
+    margin-bottom: 30px;
+}
+
+.giftbox {
+    max-width: 512px;
+    background: #FFFFFF;
+    opacity: 0.9;
+    border-radius: 20px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    margin-bottom: 98px;
+}
+
+.gift_image {
+    margin-left: 38px;
+    margin-right: 38px;
+}
+
+.clients {
+    font-family: 'Roboto-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+    padding-right: 33px;
+}
+
+.button {
+    font-family: 'Roboto-Medium';
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+
+    border-radius: 10px;
+    padding: 20px 48px;
+    background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
+    box-shadow: 0px 0px 166px rgba(0, 0, 0, 0.2), 8px 8px 109px rgba(0, 0, 0, 0.05);
+}
+
+
+/*секция Про нас */
+.about_section{
+    padding-top: 15px;
+    padding-bottom: 160px;
+}
+
+.about_section img{
+    display: block;
+    width: 100%;
+    margin-bottom: 165px;
+}
+
+.about_left{
+    max-width: 385px;
+    width: 100%;
+}
+
+.about_left h3{
+    font-family: 'GothicA1-SemiBold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #000000;
+    margin-bottom: 60px;
+}
+
+.abz_1{
+    margin-bottom: 20px;
+}
+
+.about_left p{
+    font-family: 'Roboto Light';
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.about_left p strong{
+    font-family: 'GothicA1-SemiBold';
+}
+
+
+.about_img{
+    max-width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.about_img img{
+    width: 740px;
+    display: block;
+}
+
+
+ /*секция Форма */
+
+.form_section{
+    padding-top: 21px;
+    padding-bottom: 200px;
+}
+
+.form_section img {
+    display: block;
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+.form_content {
+    justify-content: space-between;
+    display: flex;
+}
+
+.left_side {
+    width: 410px;
+    max-width: 100%;
+}
+
+.left_side h3 {
+    font-family: 'GothicA1-SemiBold';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.text_style {
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+    margin-bottom: 40px;
+    padding-bottom: 5px;
+
+    font-family: 'Roboto Light';
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.comment {
+    resize: none;
+    height: 25px;
+    margin-bottom: 60px;
+}
+
+.left_side button {
+    padding: 20px 50px;
+    background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
+    box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+    font-family: 'Roboto Light';
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+
+}
+
+.right_side {
+    max-width: 615px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.right_side img {
+    display: block;
+    width: 100%;
+}
+
+
+
+
+
+/*!*портфолио*!*/
+/*.portfolio{*/
+/*    padding-top: 27px;*/
+/*    padding-bottom: 177px;*/
+/*}*/
+
+/*.portfolio_svg {*/
+/*    width: 100%;*/
+/*    display: block;*/
+/*    margin-bottom: 180px;*/
+/*}*/
+
+/*.port_discr{*/
+/*    margin-bottom: 50px;*/
+/*}*/
+/*.material_block img{*/
+/*    margin-bottom: 20px;*/
+/*}*/
+
+/*.material_block{*/
+/*    max-width: 540px;*/
+/*}*/
+
+/*.material_block p{*/
+/*    margin-bottom: 80px;*/
+/*}*/
+
+/*портфолио*/
+
+
+/*секция почему */
+
+
+/*.why{*/
+/*    background-image: url("../images/about_header.svg");*/
+/*    background-size: contain;*/
+/*    height: 86vh;*/
+/*    background-color: #5c7387;*/
+/*    padding-top: 60px;*/
+/*    padding-bottom: 60px;*/
+/*}*/
+
+/*.why h3{*/
+/*    font-family: 'GothicA1-SemiBold';*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    font-size: 24px;*/
+/*    line-height: 130%;*/
+/*    color: #FFFFFF;*/
+/*    margin-bottom: 67px;*/
+/*}*/
+
+
+
+/*.advantage{*/
+/*    background-color: #FFFFFF;*/
+/*    border-radius: 20px;*/
+/*    max-width: 195px;*/
+/*    padding: 60px 30px 50px 30px;*/
+/*    width: 100%;*/
+
+/*}*/
+
+/*.advantage img{*/
+/*    display: block;*/
+/*    margin: auto;*/
+/*    margin-bottom: 68px;*/
+/*}*/
+
+/*.test{*/
+/*    justify-content: space-between;*/
+/*}*/
+
+/*.try {*/
+/*    padding-top: 70px;*/
+/*}*/
+
+/*.advantage.try img{*/
+/*    margin-bottom: 90px;*/
+/*}*/
+
+/*.advantage p strong{*/
+/*    font-family: 'Roboto-Medium';*/
+/*    font-style: normal;*/
+/*    font-weight: 500;*/
+/*    font-size: 16px;*/
+/*    line-height: 150%;*/
+/*    color: #373737;*/
+/*}*/
+
+/*.advantage p{*/
+/*    font-family: 'Roboto Light';*/
+/*    font-weight: 300;*/
+/*    font-size: 16px;*/
+/*    line-height: 150%;*/
+/*    color: #373737;*/
+/*}*/
+/*секция портфолио*/
+
+
+
+
+
+
+
+/*секция с формой (материалы)*/
+/*.calculate{*/
+/*    padding-top: 60px;*/
+/*    padding-bottom: 60px;*/
+/*    background: #231F20;*/
+/*}*/
+
+/*.calc_1{*/
+/*    background: #FFFFFF;*/
+/*    border-radius: 20px;*/
+/*    padding-top: 30px;*/
+/*    padding-bottom: 30px;*/
+/*    padding-left: 30px;*/
+/*    margin-bottom: 10px;*/
+/*  }*/
+
+/*.calc_1 div{*/
+/*    max-width: 790px;*/
+/*}*/
+
+/*.calc_2{*/
+/*    background: #FFFFFF;*/
+/*    border-radius: 20px;*/
+/*    padding-top: 30px;*/
+/*    padding-bottom: 30px;*/
+/*    padding-left: 30px;*/
+/*    padding-right: 30px;*/
+/*}*/
+
+/*.art1{*/
+/*    margin-bottom: 20px;*/
+/*}*/
+
+/*.calc_3{*/
+/*    max-width: 1128px;*/
+/*    background: #4C6071;*/
+/*    border-radius: 30px;*/
+/*    padding-top: 30px;*/
+/*    padding-bottom: 30px;*/
+/*    padding-left: 30px;*/
+/*    padding-right: 50px;*/
+/*}*/
+
+/*.material_left{*/
+/*    max-width: 408px;*/
+/*    margin-right: 30px;*/
+/*}*/
+
+/*.material_right{*/
+/*    max-width: 610px;*/
+/*}*/
+
+/*.material_form{*/
+/*    background: #FFFFFF;*/
+/*    box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);*/
+/*    border-radius: 10px;*/
+/*    width: 368px;*/
+/*    padding: 20px 20px;*/
+/*    margin-bottom: 10px;*/
+/*}*/
+/*.material_form p{*/
+/*    max-width: 250px;*/
+/*}*/
+
+/*.material_img{*/
+/*    border-radius: 10px;*/
+/*    overflow: hidden;*/
+/*    margin-bottom: 10px;*/
+/*}*/
+
+/*.material_img img{*/
+/*    max-width: 100%;*/
+/*    display: block;*/
+/*}*/
+
+/*.material_buttons button{*/
+/*    display: block;*/
+/*    padding: 20px 116px;*/
+/*}*/
+
+/*.button_back{*/
+/*    background: #8F8F8F;*/
+/*    box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);*/
+/*    border-radius: 10px;*/
+/*    border: none;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.button_next{*/
+/*    background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);*/
+/*    box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);*/
+/*    border-radius: 10px;*/
+/*    border: none;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*секция с формой (материалы)*/
+
+
+/*секция фактур*/
+
+
+/*.factures{*/
+/*    padding-top: 30px;*/
+/*    padding-bottom: 150px;*/
+/*}*/
+
+/*.factures_bg{*/
+/*    width: 100%;*/
+/*    display: block;*/
+/*    margin-bottom: 150px;*/
+/*}*/
+
+/*.factures_h3{*/
+/*    margin-bottom: 52px;*/
+/*}*/
+
+/*.factures_material{*/
+/*    max-width: 255px;*/
+
+/*}*/
+
+/*.factures_material img{*/
+/*    margin-bottom: 20px;*/
+/*    max-width: 100%;*/
+/*}*/
+
+/*.material_row_1{*/
+/*    margin-bottom: 40px;*/
+/*}*/
+
+/*.factures a{*/
+/*    text-decoration: none;*/
+/*    padding: 20px 46px;*/
+/*    background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);*/
+/*    box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);*/
+/*    border-radius: 10px;*/
+/*    color: #FFFFFF;*/
+/*}*/
+
+
+
+
+
+
+ /*футер*/
+/*footer{*/
+/*    background: #4C6071;*/
+/*    padding-top: 50px;*/
+/*    padding-bottom: 50px;*/
+/*}*/
+
+/*.footer_contacts{*/
+/*    font-family: 'GothicA1-SemiBold';*/
+/*    font-weight: 400;*/
+/*    font-size: 24px;*/
+/*    line-height: 130%;*/
+/*    color: #FFFFFF;*/
+/*    margin-bottom: 30px;*/
+/*}*/
+
+/*.footer_social{*/
+/*    font-family: 'GothicA1-SemiBold';*/
+/*    font-weight: 300;*/
+/*    font-size: 16px;*/
+/*    line-height: 130%;*/
+/*    color: #FFFFFF;*/
+/*    margin-bottom: 30px;*/
+/*}*/
+
+/*.socian_icons{*/
+/*    margin-right: 24px;*/
+/*}*/
+
+/*.footer_map{*/
+/*    max-width: 540px;*/
+/*    width: 100%;*/
+/*}*/
+
+/*.footer_general{*/
+/*    font-family: 'Roboto Light';*/
+/*    font-weight: 300;*/
+/*    font-size: 16px;*/
+/*    line-height: 150%;*/
+/*    color: #FFFFFF;*/
+/*    margin-bottom: 30px;*/
+/*}*/
+
+/*.footer_number{*/
+/*    font-family: 'Roboto Light';*/
+/*    font-weight: 300;*/
+/*    font-size: 16px;*/
+/*    line-height: 150%;*/
+/*    color: #FFFFFF;*/
+/*}*/
+/*.ssss p{*/
+/*    text-align: end;*/
+/*}*/

@@ -50,20 +50,20 @@ header {
     justify-content: space-between;
 }
 
-.logo {
+header img {
     margin-left: -40px;
 }
 
-.menu_bar {
+nav ul {
     margin-top: 39px;
     list-style: none;
 }
 
-.menu_bar li {
+nav ul li {
     margin-right: 20px;
 }
 
-.menu_bar li a {
+nav ul li a {
     font-family: 'Roboto-Medium';
     text-decoration: none;
     font-style: normal;
@@ -73,12 +73,12 @@ header {
     color: #FFFFFF;
 }
 
-.contact_bar {
+header ul {
     list-style: none;
     margin-top: 39px;
 }
 
-.phone_number {
+ul li:first-of-type {
     font-family: 'Roboto-Medium';
     margin-right: 20px;
     font-style: normal;
@@ -88,7 +88,7 @@ header {
     color: #FFFFFF;
 }
 
-.contact_bar a {
+ul li:last-of-type a {
     font-family: 'Roboto-Medium';
     font-style: normal;
     font-weight: 500;
@@ -102,10 +102,9 @@ header {
     background-size: cover;
     height: 100vh;
     display: flex;
-
 }
 
-.container h1 {
+.descr_info h1 {
     font-family: 'GothicA1-SemiBold';
     font-style: normal;
     font-weight: 600;
@@ -116,7 +115,7 @@ header {
     margin-bottom: 30px;
 }
 
-.giftbox {
+.descr_info article {
     max-width: 512px;
     background: #FFFFFF;
     opacity: 0.9;
@@ -126,12 +125,12 @@ header {
     margin-bottom: 98px;
 }
 
-.gift_image {
+.descr_info article img {
     margin-left: 38px;
     margin-right: 38px;
 }
 
-.clients {
+.descr_info article p {
     font-family: 'Roboto-Medium';
     font-style: normal;
     font-weight: 500;
@@ -141,7 +140,7 @@ header {
     padding-right: 33px;
 }
 
-.button {
+.descr_info a {
     font-family: 'Roboto-Medium';
     text-decoration: none;
     font-style: normal;
@@ -161,6 +160,8 @@ header {
 .about_section{
     padding-top: 15px;
     padding-bottom: 160px;
+    position: relative;
+
 }
 
 .about_section img{
@@ -184,11 +185,11 @@ header {
     margin-bottom: 60px;
 }
 
-.abz_1{
+.about_section .about_left p{
     margin-bottom: 20px;
 }
 
-.about_left p{
+.about_section .about_left p{
     font-family: 'Roboto Light';
     font-size: 20px;
     line-height: 150%;
@@ -201,13 +202,16 @@ header {
 
 
 .about_img{
-    max-width: 100%;
+    max-width: 770px;
     border-radius: 10px;
     overflow: hidden;
+    position: absolute;
+    right: 0;
 }
 
+
 .about_img img{
-    width: 740px;
+    width: 100%;
     display: block;
 }
 
@@ -223,11 +227,6 @@ header {
     display: block;
     width: 100%;
     margin-bottom: 200px;
-}
-
-.form_content {
-    justify-content: space-between;
-    display: flex;
 }
 
 .left_side {
@@ -285,6 +284,8 @@ header {
     max-width: 615px;
     border-radius: 10px;
     overflow: hidden;
+
+
 }
 
 .right_side img {

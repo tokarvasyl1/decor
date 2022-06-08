@@ -294,3 +294,70 @@ ul li:last-of-type a {
 }
 
 
+
+/*секция с фактурами */
+
+
+.test img {
+    display: block;
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.test .container h3{
+    margin-left: 96px;
+    margin-bottom: 52px;
+    text-align: start;
+
+    font-family: 'GothicA1-SemiBold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #373737;
+}
+
+.test .container p{
+    text-align: start;
+    font-family: 'Roboto-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #373737;
+}
+.test .container .container:first-of-type{
+    margin-bottom: 40px;
+}
+
+.test .container .container:last-of-type{
+    margin-bottom: 70px;
+}
+
+.test div img{
+    max-width: 255px;
+    margin-bottom: 20px;
+}
+
+.test a{
+    background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
+    box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 20px 46px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 150px;
+
+    font-family: 'Roboto Light';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+
+}
+
+.test .container {
+    text-align: center;
+}
+

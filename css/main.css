@@ -3,6 +3,7 @@
     margin: 0;
 }
 
+
 @font-face {
     font-family: 'Roboto-Medium';
     src: url('../font/Roboto-Medium.ttf');
@@ -100,8 +101,8 @@ ul li:last-of-type a {
 .descr_info {
     background-image: url("../images/bg1.png");
     background-size: cover;
-    height: 100vh;
-    display: flex;
+    height: 81vh;
+    padding-top: 170px;
 }
 
 .descr_info h1 {

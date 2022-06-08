@@ -302,14 +302,14 @@ ul li:last-of-type a {
     color: #FFFFFF;
 }
 
-.videos .container .container div div {
+.videos_overflow {
     max-width: 255px;
     border-radius: 20px;
     overflow: hidden;
 
 }
 
-.videos .container .container div div img{
+.videos_overflow img{
     width: 100%;
     margin-bottom: 20px;
 }
@@ -351,17 +351,6 @@ ul li:last-of-type a {
     color: #FFFFFF;
 
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
  /*секция Форма */

@@ -215,6 +215,153 @@ ul li:last-of-type a {
     display: block;
 }
 
+/*секция с фактурами */
+
+.factures img {
+    display: block;
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.factures .container h3{
+    margin-left: 96px;
+    margin-bottom: 52px;
+    text-align: start;
+
+    font-family: 'GothicA1-SemiBold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #373737;
+}
+
+.factures .container p{
+    text-align: start;
+    font-family: 'Roboto-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #373737;
+}
+.factures .container .container:first-of-type{
+    margin-bottom: 40px;
+}
+
+.factures .container .container:last-of-type{
+    margin-bottom: 70px;
+}
+
+.factures div img{
+    max-width: 255px;
+    margin-bottom: 20px;
+}
+
+.factures a{
+    background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
+    box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 20px 46px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 150px;
+
+    font-family: 'Roboto Light';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+
+}
+
+.factures .container {
+    text-align: center;
+}
+
+/*секция видеоотзывы */
+
+.videos{
+    background-image: url("../images/videos_bg.jpg");
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 95px;
+}
+
+.videos .container h3{
+    margin-bottom: 78px;
+    margin-left: 95px;
+
+    font-family: 'GothicA1-SemiBold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.videos .container .container div div {
+    max-width: 255px;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+
+.videos .container .container div div img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.videos .container .container div{
+    position: relative;
+}
+
+.vector_play{
+    position: absolute;
+    top: 78px;
+    left: 97px;
+}
+
+.videos .container .container p{
+    max-width: 255px;
+}
+
+.videos .container .container p:first-of-type{
+    margin-bottom: 10px;
+
+    font-family: 'Roboto-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+
+}
+
+.videos .container .container p:last-of-type{
+    margin-bottom: 10px;
+
+    font-family: 'Roboto Light';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
  /*секция Форма */
 
@@ -295,69 +442,5 @@ ul li:last-of-type a {
 
 
 
-/*секция с фактурами */
 
-
-.test img {
-    display: block;
-    width: 100%;
-    margin-bottom: 150px;
-}
-
-.test .container h3{
-    margin-left: 96px;
-    margin-bottom: 52px;
-    text-align: start;
-
-    font-family: 'GothicA1-SemiBold';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 130%;
-    color: #373737;
-}
-
-.test .container p{
-    text-align: start;
-    font-family: 'Roboto-Medium';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
-    color: #373737;
-}
-.test .container .container:first-of-type{
-    margin-bottom: 40px;
-}
-
-.test .container .container:last-of-type{
-    margin-bottom: 70px;
-}
-
-.test div img{
-    max-width: 255px;
-    margin-bottom: 20px;
-}
-
-.test a{
-    background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
-    box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
-    border-radius: 10px;
-    padding: 20px 46px;
-    text-decoration: none;
-    display: inline-block;
-    margin-bottom: 150px;
-
-    font-family: 'Roboto Light';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 150%;
-    color: #FFFFFF;
-
-}
-
-.test .container {
-    text-align: center;
-}
 

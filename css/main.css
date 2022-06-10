@@ -773,9 +773,14 @@ footer{
     font-size: 16px;
     line-height: 150%;
     color: #FFFFFF;
-
     margin-bottom: 30px;
 }
+
+.general_contacts p:last-of-type{
+
+    margin-bottom: inherit;
+}
+
 
 
 

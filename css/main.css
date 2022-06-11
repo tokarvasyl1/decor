@@ -44,7 +44,8 @@
     font-display: swap;
 }
 
-/*секция 1 */
+/*Хедер}*/
+
 header {
     position: absolute;
     width: 100%;
@@ -170,6 +171,7 @@ ul li:last-of-type a {
 
 
 /*секция Про нас */
+
 .about_section{
     padding-top: 15px;
     padding-bottom: 160px;
@@ -213,7 +215,6 @@ ul li:last-of-type a {
     font-family: 'GothicA1-SemiBold';
 }
 
-
 .about_img{
     max-width: 770px;
     border-radius: 10px;
@@ -222,13 +223,14 @@ ul li:last-of-type a {
     right: 0;
 }
 
-
 .about_img img{
     width: 100%;
     display: block;
 }
 
+
 /*секция почему мы */
+
 .why_we{
     background-color: #4C6071;
     padding-top: 60px;
@@ -278,6 +280,7 @@ ul li:last-of-type a {
     left: 104px;
     top: 75px;
 }
+
 .preferences p:first-of-type{
     margin-bottom: 10px;
 
@@ -297,6 +300,7 @@ ul li:last-of-type a {
     line-height: 150%;
     color: #373737;
 }
+
 
 /*секция портфолио*/
 
@@ -358,7 +362,6 @@ ul li:last-of-type a {
     margin-bottom: 80px;
 }
 
-
 .portfolio a{
     text-decoration: none;
     display: inline-block;
@@ -383,6 +386,7 @@ ul li:last-of-type a {
 
 
 /*секция с фактурами */
+
 .factures{
     padding-top: 31px ;
     padding-bottom: 150px;
@@ -416,11 +420,12 @@ ul li:last-of-type a {
     line-height: 150%;
     color: #373737;
 }
-.factures .container .container:first-of-type{
+
+.factures1{
     margin-bottom: 40px;
 }
 
-.factures .container .container:last-of-type{
+.factures2{
     margin-bottom: 70px;
 }
 
@@ -449,6 +454,7 @@ ul li:last-of-type a {
 .factures .container {
     text-align: center;
 }
+
 
 /*секция видеоотзывы */
 
@@ -483,7 +489,7 @@ ul li:last-of-type a {
     margin-bottom: 20px;
 }
 
-.videos .container .container div{
+.video_click{
     position: relative;
 }
 
@@ -600,7 +606,6 @@ ul li:last-of-type a {
 }
 
 
-
 /*секция просчета стоимости */
 
 .calculate{
@@ -619,6 +624,7 @@ ul li:last-of-type a {
     padding-left: 30px;
     max-width: 1158px;
 }
+
 .calculate .container:first-of-type {
     margin-bottom: 10px;
 }
@@ -643,7 +649,6 @@ ul li:last-of-type a {
   margin-bottom: 20px;
 }
 
-
 .questions_bg{
     max-width: 1128px;
     background: #4C6071;
@@ -661,7 +666,6 @@ ul li:last-of-type a {
 .questions_right{
     margin-right: 50px;
 }
-
 
 .question_form_bg{
     background: #FFFFFF;
@@ -721,11 +725,13 @@ ul li:last-of-type a {
 }
 
 
+/*футер */
+
 footer{
     background-color: #4C6071;
     background-image: url("../images/why_bg.svg");
     padding-top: 50px;
-    padding-bottom: 59px;
+    padding-bottom: 50px;
 }
 
 .footer_contacts{
@@ -780,10 +786,6 @@ footer{
 
     margin-bottom: inherit;
 }
-
-
-
-
 
 .footer_map {
     margin-left: 131px;

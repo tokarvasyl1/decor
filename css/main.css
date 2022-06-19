@@ -3,33 +3,42 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: 'Roboto Light';
+    src: url('../font/Roboto-Light.eot');
+    src: url('../font/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+    url('../font/Roboto-Light.woff2') format('woff2'),
+    url('../font/Roboto-Light.woff') format('woff'),
+    url('../font/Roboto-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
 
 @font-face {
     font-family: 'Roboto-Medium';
-    src: url('../font/Roboto-Medium.ttf');
-    src: local('../font/Roboto-Medium'), local('../font/Roboto-Medium'),
+    src: url('../font/Roboto-Medium.eot');
+    src: url('../font/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../font/Roboto-Medium.woff2') format('woff2'),
+    url('../font/Roboto-Medium.woff') format('woff'),
     url('../font/Roboto-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'GothicA1-SemiBold';
-    src: url('../font/GothicA1-SemiBold.ttf');
-    src: local('../font/GothicA1-SemiBold'), local('../font/GothicA1-SemiBold'),
+    src: url('../font/GothicA1-SemiBold.eot');
+    src: url('../font/GothicA1-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../font/GothicA1-SemiBold.woff2') format('woff2'),
+    url('../font/GothicA1-SemiBold.woff') format('woff'),
     url('../font/GothicA1-SemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
+    font-display: swap;
 }
 
-@font-face {
-    font-family: 'Roboto Light';
-    src: url('../font/Roboto-Light.ttf');
-    src: local('../font/Roboto-Light'), local('../font/Roboto-Light'),
-    url('../font/Roboto-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-}
 
 @font-face {
     font-family: 'Montserrat';
@@ -37,12 +46,12 @@
     src: url('../font/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
     url('../font/Montserrat-Bold.woff2') format('woff2'),
     url('../font/Montserrat-Bold.woff') format('woff'),
-    url('../font/Montserrat-Bold.ttf') format('truetype'),
-    url('../font/Montserrat-Bold.svg#Montserrat-Bold') format('svg');
+    url('../font/Montserrat-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
+
 
 /*Хедер}*/
 
@@ -463,6 +472,7 @@ ul li:last-of-type a {
     background-size: cover;
     padding-top: 60px;
     padding-bottom: 95px;
+    position: relative;
 }
 
 .videos .container h3{
@@ -481,10 +491,10 @@ ul li:last-of-type a {
     max-width: 255px;
     border-radius: 20px;
     overflow: hidden;
-
 }
 
 .videos_overflow img{
+    display: block;
     width: 100%;
     margin-bottom: 20px;
 }
@@ -496,14 +506,17 @@ ul li:last-of-type a {
 .vector_play{
     position: absolute;
     top: 78px;
-    left: 97px;
+    left: 87px;
+    display: block;
+    max-width: 82px;
+    width: 100%;
 }
 
-.videos .container .container p{
+.videos  p{
     max-width: 255px;
 }
 
-.videos .container .container p:first-of-type{
+.videos p:first-of-type{
     margin-bottom: 10px;
 
     font-family: 'Roboto-Medium';
@@ -515,7 +528,7 @@ ul li:last-of-type a {
 
 }
 
-.videos .container .container p:last-of-type{
+.videos p:last-of-type{
     margin-bottom: 10px;
 
     font-family: 'Roboto Light';
@@ -526,6 +539,36 @@ ul li:last-of-type a {
     color: #FFFFFF;
 
 }
+
+
+.owl-nav .owl-prev:before{
+    content: "\f060";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+.owl-nav{
+    max-width: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: -90px;
+    right: 90px;
+
+
+}
+
+.owl-nav .owl-next:before{
+    content: "\f061";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
 
 
  /*секция Форма */
@@ -604,7 +647,6 @@ ul li:last-of-type a {
     display: block;
     width: 100%;
 }
-
 
 /*секция просчета стоимости */
 
@@ -821,6 +863,143 @@ footer{
     text-align: center;
     color: #FFFFFF;
     text-shadow: -15px 15px 66px rgba(0, 57, 109, 0.46);
-
 }
+
+
+
+
+
+
+
+.test{
+    transition: all ease 1s;
+}
+
+
+.hamburger{
+    display: block;
+    position: absolute;
+    right: 0px ;
+    top: 0px ;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 96px;
+    height: 96px;
+    font-size: 0;
+    box-shadow: none;
+    cursor: pointer;
+    border: none;
+}
+
+.hamburger:focus{
+    outline: none;
+}
+
+.hamburger span{
+    display: block;
+    position: absolute;
+    top: 44px;
+    left: 18px;
+    right: 18px;
+    height: 8px;
+    background: #FFFFFF;
+}
+
+.hamburger span:before, .hamburger span:after{
+    position: absolute;
+    display: block;
+    left: 0;
+    width: 100%;
+    height: 8px;
+    background: #FFFFFF;
+    content: "";
+}
+
+.hamburger span:before{
+    top: -20px;
+}
+
+.hamburger span:after{
+    bottom: -20px;
+}
+
+.h-line{
+    background: #D6D6D6;
+}
+
+
+.h-line span{
+    transition: background 0s 0.3s;
+}
+
+
+.h-line span:before, .h-line span:after{
+    transition-duration: 0.3s, 0.3s;
+    transition-delay: 0.3s, 0s;
+}
+
+.h-line span:before{
+    transition-property: top, transform;
+}
+
+.h-line span:after{
+    transition-property: bottom, transform;
+}
+
+.h-line.is-active{
+    background: #869791;
+}
+
+.h-line.is-active span{
+    background: none;
+}
+
+.h-line.is-active span:before{
+    top: 0;
+    transform: rotate(-45deg);
+}
+
+.h-line.is-active span:after{
+    bottom: 0;
+    transform: rotate(45deg);
+}
+
+.h-line.is-active span:before, .h-line.is-active span:after{
+    transition-delay: 0s, 0.3s;
+}
+
+
+
+
+#menu{
+    width: 300px;
+    margin-left: -204px;
+    background: bisque;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    transition: all ease 1s;
+    z-index: 2;
+}
+
+#menu .container{
+    width: 80%;
+    min-width: 1000px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.body-active{
+    margin: 300px;
+}
+
+#menu.nav-active{
+    margin-left: 0;
+}
+
+
+
+
 

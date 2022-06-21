@@ -118,28 +118,29 @@
 
 
         <section class="calculate">
-            <div class="container white_bg">
+            <div class="container main_bg">
                 <p>Рассчитайте ориентировочную стоимость выполнения Ваших<br> работ ответив всего на 5 вопросов</p>
             </div>
             <div class="container quest_main" id="accordion">
-                    <h3>
-                        <span>Какая услуга Вас интересует?</span>
-                        <span>Вопрос 1 из 5</span>
-                    </h3>
+<!--                вопрос 1-->
+                <h3>
+                    <span>Какая услуга Вас интересует?</span>
+                    <span>Вопрос 1 из 5</span>
+                </h3>
                 <div>
-                    <form action="#" method="post" name="form2">
+                    <form action="#" method="post" name="form_question_1">
                         <div class="questions_bg flex jcs">
                             <div class="questions_left">
                                 <div class="question_form_bg flex jcs">
-                                    <label for="decor_shtukaturka">Декоративная штукатурка</label>
+                                    <label for="decor_shtukaturka1">Декоративная штукатурка</label>
                                     <input type="radio" id="decor_shtukaturka1" name="material">
                                 </div>
                                 <div class="question_form_bg flex jcs">
-                                    <label for="pokraska">Покраска</label>
+                                    <label for="pokraska1">Покраска</label>
                                     <input type="radio" id="pokraska1" name="material">
                                 </div>
                                 <div class="question_form_bg flex jcs">
-                                    <label for="decor_pokr">Декоративная штукатурка
+                                    <label for="decor_pokr1">Декоративная штукатурка
                                         + покраска</label>
                                     <input type="radio" id="decor_pokr1" name="material">
                                 </div>
@@ -156,27 +157,122 @@
                         </div>
                     </form>
                 </div>
-
+<!--                вопрос 2-->
                 <h3>
-                    <span>2</span>
+                    <span>Где будут выполняться работы?</span>
                     <span>Вопрос 2 из 5</span>
                 </h3>
                 <div>
-                    <form action="#" method="post" name="form2">
+                    <form action="#" method="post" name="form_question_2">
                         <div class="questions_bg flex jcs">
                             <div class="questions_left">
                                 <div class="question_form_bg flex jcs">
-                                    <label for="decor_shtukaturka">Декоративная штукатурка</label>
-                                    <input type="radio" id="decor_shtukaturka" name="material">
+                                    <label for="inside">В помещении</label>
+                                    <input type="radio" id="inside" name="question_section2">
                                 </div>
                                 <div class="question_form_bg flex jcs">
-                                    <label for="pokraska">Покраска</label>
-                                    <input type="radio" id="pokraska" name="material">
+                                    <label for="fasad">Фасад</label>
+                                    <input type="radio" id="fasad" name="question_section2">
+                                </div>
+                            </div>
+                            <div class="questions_right">
+                                <div class="calculate_overflow">
+                                    <img src="images/question2_img.png" alt="">
+                                </div>
+                                <div class="flex jcs">
+                                    <button type="submit" class="button_back_blue">Назад</button>
+                                    <button type="submit" class="button_forward">Далее</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                    <!--вопрос 3-->
+                <h3>
+                    <span>Где будут выполняться работы?</span>
+                    <span>Вопрос 3 из 5</span>
+                </h3>
+                <div>
+                    <form action="#" method="post" name="form_question_3">
+                        <div class="questions_bg flex jcs">
+                            <div class="questions_left">
+                                <div class="question_form_bg flex jcs">
+                                    <label for="less_100">Менее 100 м2</label>
+                                    <input type="radio" id="less_100" name="question_section3">
                                 </div>
                                 <div class="question_form_bg flex jcs">
-                                    <label for="decor_pokr">Декоративная штукатурка
-                                        + покраска</label>
-                                    <input type="radio" id="decor_pokr" name="material">
+                                    <label for="more_100">Более 100 м2</label>
+                                    <input type="radio" id="more_100" name="question_section3">
+                                </div>
+                                <div class="question_form_bg flex jcs hide_label">
+                                        <label for="question3"></label>
+                                        <input type="text" name="question_section3" placeholder="Точная площадь" id="question3" >
+                                        <input type="radio" id="exactly_size" name="question_section3">
+                                </div>
+                            </div>
+                            <div class="questions_right">
+                                <div class="calculate_overflow">
+                                    <img src="images/question3_img.png" alt="">
+                                </div>
+                                <div class="flex jcs">
+                                    <button type="submit" class="button_back_blue">Назад</button>
+                                    <button type="submit" class="button_forward">Далее</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+<!--                вопрос 4-->
+                <h3>
+                    <span>Уровень подготовки стен?</span>
+                    <span>Вопрос 4 из 5</span>
+                </h3>
+                <div>
+                    <form action="#" method="post" name="form_question_4">
+                        <div class="questions_bg flex jcs">
+                            <div class="questions_left">
+                                <div class="question_form_bg flex jcs">
+                                    <label for="shtuk_walls">Оштукатуренные стены</label>
+                                    <input type="radio" id="shtuk_walls" name="question_section4">
+                                </div>
+                                <div class="question_form_bg flex jcs">
+                                    <label for="shpakl_walls">Ошпаклеванные стены</label>
+                                    <input type="radio" id="shpakl_walls" name="question_section4">
+                                </div>
+                                <div class="question_form_bg flex jcs hide_label">
+                                    <label for="question4"></label>
+                                    <input type="text" name="another" placeholder="Другое" id="question4" >
+                                    <input type="radio" id="another" name="question_section4">
+                                </div>
+                            </div>
+                            <div class="questions_right">
+                                <div class="calculate_overflow">
+                                    <img src="images/question4_img.png" alt="">
+                                </div>
+                                <div class="flex jcs">
+                                    <button type="submit" class="button_back_blue">Назад</button>
+                                    <button type="submit" class="button_forward">Далее</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+<!--                вопрос 5-->
+                <h3>
+                    <span>Где находится объект? </span>
+                    <span>Вопрос 5 из 5</span>
+                </h3>
+                <div>
+                    <form action="#" method="post" name="form_question_5">
+                        <div class="questions_bg flex jcs">
+                            <div class="questions_left">
+                                <div class="question_form_bg flex jcs">
+                                    <label for="odessa">Одесса</label>
+                                    <input type="radio" id="odessa" name="odessa">
+                                </div>
+                                <div class="question_form_bg flex jcs">
+                                    <label for="near_odessa">Пригород</label>
+                                    <input type="radio" id="near_odessa" name="odessa">
                                 </div>
                             </div>
                             <div class="questions_right">
@@ -184,7 +280,57 @@
                                     <img src="images/rectangle173.png" alt="">
                                 </div>
                                 <div class="flex jcs">
-                                    <button type="submit" class="button_back">Назад</button>
+                                    <button type="submit" class="button_back_blue">Назад</button>
+                                    <button type="submit" class="button_forward">Далее</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+<!--                вопрос 6-->
+                <h3>
+                    <span>Куда отправить результат?</span>
+                </h3>
+                <div>
+                    <form action="#" method="post" name="form_question6">
+                        <div class="questions_bg flex jcs">
+                            <div class="questions_left">
+                                <div class="question_form_bg flex jcs hide_label">
+                                    <label for="question3"></label>
+                                    <input type="text" name="question_name" placeholder="Имя" id="question6" >
+                                </div>
+                                <div class="question_form_bg flex jcs hide_label">
+                                    <label for="question3"></label>
+                                    <input type="tel" name="question_tel" placeholder="Номер телефона" id="question6_1" >
+                                </div>
+
+                                <div class="questions_messengers">
+                                    <div class="question_form_bg flex jcs question_telegram">
+                                        <img src="images/email_img.svg" alt="">
+                                        <label for="question_telegram">Telegram</label>
+                                        <input type="radio" id="question_telegram" name="messenger">
+                                    </div>
+                                    <div class="question_form_bg flex jcs question_viber">
+                                        <img src="images/email_img.svg" alt="">
+                                        <label for="question_viber">Viber</label>
+                                        <input type="radio" id="question_viber" name="messenger">
+                                    </div>
+                                </div>
+
+
+                                <div class="question_form_bg flex jcs hide_label email_img">
+                                    <img src="images/email_img.svg" alt="">
+                                    <label for="question_email"></label>
+                                    <input type="text" name="material" placeholder="E-mail" id="question_email" >
+                                    <input type="radio" id="email_radio" name="email">
+                                </div>
+                            </div>
+                            <div class="questions_right">
+                                <div class="calculate_overflow">
+                                    <img src="images/question6_img.png" alt="">
+                                </div>
+                                <div class="flex jcs">
+                                    <button type="submit" class="button_back_blue">Назад</button>
                                     <button type="submit" class="button_forward">Далее</button>
                                 </div>
                             </div>
@@ -193,6 +339,21 @@
                 </div>
             </div>
         </section>
+
+
+<!--    <form action="#" method="post">-->
+<!--        <label for="rere">-->
+
+<!--        <input type="text" id="rere">-->
+<!--            <6456456-->
+<!--        </label>-->
+<!--    </form>-->
+
+
+
+
+
+
 
     <section class="factures">
         <img src="images/factures_bg.svg" alt="">
@@ -376,16 +537,7 @@
     </div>
 </footer>
 
-<!--    <div id="menu">-->
-<!--        <button class="hamburger h-line">-->
-<!--            <span>Menu</span>-->
-<!--        </button>-->
-<!--        <div class="test">-->
-<!--            <div class="container">-->
-<!--                <h1>Hello</h1>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
+
 
     <script src="https://kit.fontawesome.com/18846f0aad.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>

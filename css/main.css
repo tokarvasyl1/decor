@@ -654,7 +654,6 @@ ul li:last-of-type a {
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: #4C6071;
-    background-image: url("../images/why_bg.svg");
     background-size: cover;
 
 }
@@ -707,6 +706,7 @@ ul li:last-of-type a {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
+    margin-bottom: 0;
 }
 
 
@@ -1039,140 +1039,6 @@ footer{
     text-shadow: -15px 15px 66px rgba(0, 57, 109, 0.46);
 }
 
-
-
-
-
-
-
-
-/*.test{*/
-/*    transition: all ease 1s;*/
-/*}*/
-
-
-/*.hamburger{*/
-/*    display: block;*/
-/*    position: absolute;*/
-/*    right: 0px ;*/
-/*    top: 0px ;*/
-/*    overflow: hidden;*/
-/*    margin: 0;*/
-/*    padding: 0;*/
-/*    width: 96px;*/
-/*    height: 96px;*/
-/*    font-size: 0;*/
-/*    box-shadow: none;*/
-/*    cursor: pointer;*/
-/*    border: none;*/
-/*}*/
-
-/*.hamburger:focus{*/
-/*    outline: none;*/
-/*}*/
-
-/*.hamburger span{*/
-/*    display: block;*/
-/*    position: absolute;*/
-/*    top: 44px;*/
-/*    left: 18px;*/
-/*    right: 18px;*/
-/*    height: 8px;*/
-/*    background: #FFFFFF;*/
-/*}*/
-
-/*.hamburger span:before, .hamburger span:after{*/
-/*    position: absolute;*/
-/*    display: block;*/
-/*    left: 0;*/
-/*    width: 100%;*/
-/*    height: 8px;*/
-/*    background: #FFFFFF;*/
-/*    content: "";*/
-/*}*/
-
-/*.hamburger span:before{*/
-/*    top: -20px;*/
-/*}*/
-
-/*.hamburger span:after{*/
-/*    bottom: -20px;*/
-/*}*/
-
-/*.h-line{*/
-/*    background: #D6D6D6;*/
-/*}*/
-
-
-/*.h-line span{*/
-/*    transition: background 0s 0.3s;*/
-/*}*/
-
-
-/*.h-line span:before, .h-line span:after{*/
-/*    transition-duration: 0.3s, 0.3s;*/
-/*    transition-delay: 0.3s, 0s;*/
-/*}*/
-
-/*.h-line span:before{*/
-/*    transition-property: top, transform;*/
-/*}*/
-
-/*.h-line span:after{*/
-/*    transition-property: bottom, transform;*/
-/*}*/
-
-/*.h-line.is-active{*/
-/*    background: #869791;*/
-/*}*/
-
-/*.h-line.is-active span{*/
-/*    background: none;*/
-/*}*/
-
-/*.h-line.is-active span:before{*/
-/*    top: 0;*/
-/*    transform: rotate(-45deg);*/
-/*}*/
-
-/*.h-line.is-active span:after{*/
-/*    bottom: 0;*/
-/*    transform: rotate(45deg);*/
-/*}*/
-
-/*.h-line.is-active span:before, .h-line.is-active span:after{*/
-/*    transition-delay: 0s, 0.3s;*/
-/*}*/
-
-
-
-
-/*#menu{*/
-/*    width: 300px;*/
-/*    margin-left: -204px;*/
-/*    background: bisque;*/
-/*    position: fixed;*/
-/*    left: 0;*/
-/*    top: 0;*/
-/*    bottom: 0;*/
-/*    transition: all ease 1s;*/
-/*    z-index: 2;*/
-/*}*/
-
-/*#menu .container{*/
-/*    width: 80%;*/
-/*    min-width: 1000px;*/
-/*    margin: 30px auto;*/
-/*    text-align: center;*/
-/*}*/
-
-/*.body-active{*/
-/*    margin: 300px;*/
-/*}*/
-
-/*#menu.nav-active{*/
-/*    margin-left: 0;*/
-/*}*/
 
 
 
